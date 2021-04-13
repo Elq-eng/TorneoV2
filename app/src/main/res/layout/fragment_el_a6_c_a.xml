@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idListVwEqu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElA6CAFragment">
+
+    <ListView
+        android:id="@+id/idListVwEquip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idFbnEq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="5sp"
+            android:backgroundTint="#F15A5A"
+            android:src="@drawable/add_person"
+            app:maxImageSize="55dp"
+            app:fabCustomSize="90dp"
+
+
+            />
+
+
+
+</FrameLayout>

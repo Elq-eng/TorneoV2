@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".InicioActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="130dp">
+
+           <ImageView
+               android:id="@+id/imageView"
+                android:layout_width="match_parent"
+               android:layout_height="130dp"
+              app:srcCompat="@drawable/world" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="90dp"
+        >
+
+
+            <Button
+
+                android:layout_width="180dp"
+                android:layout_height="63dp"
+                android:background="@drawable/myrect"
+                android:elevation="20dp"
+                android:onClick="Storneo"
+                android:text="        Torneo       "
+                android:textColor="#F15A5A"
+                android:textSize="25dp"
+
+                />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="63dp"
+                android:background="@drawable/myrect"
+                android:elevation="10dp"
+                android:layout_marginTop="40dp"
+
+                android:text="       Mi Club        "
+                android:textColor="#F15A5A"
+                android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

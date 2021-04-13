@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TorneoV1</string>
+    <string name="Btn_NwTorneo">Nuevo torneo</string>
+    <string name="Btn_NwTorneo1">Guardar</string>
+    <string name="Btn_FnTorneo">Finalizar</string>
+    <string name="Txt_NmTorneo">Nombre torneo </string>
+    <string name="Txt_CtTorneo">Categoria </string>
+    <string name="Txt_LgTorneo">Liga </string>
+    <string name="Txt_VlTorneo">Valor $</string>
+    <string name="Txt_NeTorneo">Nombre Equipo</string>
+    <string name="title_nav_equi_1">Equipos</string>
+    <string name="title_nav_equi_2">Partidos</string>
+    <string name="popBtn">GUARDAR</string>
+    <string name="popNEqu">Nombre del Equipo</string>
+    <string name="popNCap">Nombre Capitan</string>
+    <string name="popCel">Celular</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
